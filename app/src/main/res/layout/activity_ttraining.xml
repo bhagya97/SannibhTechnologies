@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.lenovo.sannibhtechnologies.TTraining">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highly skilled teachers are one of the singlemost important influences on students success.\nClass size and other factors characterizing education do not impact students learning trajectories as much as the quality of their teachers.\nTeachers facilitate the process whereby students cultivate habits of mind and knowledge, schemes that are prerequisites for success, meaningful contributions and prosperity in an open, technological world.\nThis makes effective teacher training of paramount importance in the cultivation of an educated citizenry within the country."
+        android:id="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Objectives of Training Program"
+        android:id="@+id/textView21"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="~To build confidence in the potential of the educators.~To create love and respect for teaching profession thereby creating a favorable positive attitude.
+\n\n~To equip the new entrants in the teaching profession with the competencies requisite for dealing with the learners and to increase their suitability for the teaching profession.
+\n\n~To enable the teachers to refine and improve their teaching skills.
+\n\n~To familiarize the teachers with latest concepts in content as well as pedagogy and methods required to teach particular subjects.
+\n\n~To enable the teachers to introduce and nurture innovations in the education system so as to reflect educational philosophy."
+        android:id="@+id/textView22"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        />
+
+</RelativeLayout>
+</ScrollView>

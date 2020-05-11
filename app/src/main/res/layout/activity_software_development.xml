@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.sannibhtechnologies.SoftwareDevelopment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" With ever increasing demand of software solutions, we are committed to provide expert services in product based and customized software solutions in the area of Web Development using ASP.Net, PHP and Java, Mobile Application Development using Android and iPhone, Software Testing and Quality Assurance, Ethical Hacking and Information Security."
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Website Development"
+        android:id="@+id/textView12"
+        android:layout_gravity="start"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/blue"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="» If there is a business, it has to have a website.\n\n» As internet access becomes more ubiquitous and the workforce gets more global, web-based applications are becoming the standard.\n\n» Sannibh Technologies works with the clients to build dynamic and robust web applications for their business."
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mobile Application Development"
+        android:id="@+id/textView14"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/blue"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="» With the increasing number of people accessing wide array of services and facilities through mobile devices, it is becoming imperative for organizations and individuals to turn to mobile applications that enable products, services and brands to be distributed to customers with ease.\n\n» We at Sannibh Technologies understand this and work in synchrony with the clients to develop mobile applications for android, iPhone and Cross Platform Mobile Application development."
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
+</ScrollView>

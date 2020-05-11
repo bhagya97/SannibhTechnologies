@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.sannibhtechnologies.Mentoring">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sannibh Technologies has instigated its Mentoring Programme with an aim to initiate a learning and development partnership with the individuals or learners in the technical field."
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" Objectives of the Mentoring Programme"
+        android:id="@+id/textView18"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/blue"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="~To assist learners in identifying and working towards achieving academic goals and objectives.\n\n~To provide guidance and support by creating an atmosphere of communication, openness and trust\n\n~To develop technical knowledge of the learners through assigning specific tasks/ projects
+\n\n~To assess the current level of expertise and make recommendations on career path development
+\n\n~To provide enrichment programmes for high potential learners and remediation and academic help to low scoring learners
+\n\n~To provide awareness of opportunities and activities to broaden industry related experience
+\n\n~To offer apprenticeship locally"
+        android:id="@+id/textView19"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>
+</ScrollView>
